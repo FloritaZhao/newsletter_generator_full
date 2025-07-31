@@ -275,12 +275,31 @@ export default function Builder({ availableArticles, newsletters }:{ availableAr
           <div className="card-body">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {newsletters.slice(0, 6).map(newsletter => (
-                <div key={newsletter.id} className="border border-gray-200 rounded-lg p-4 hover:border-primary-300 hover:shadow-sm transition">
-                  <h4 className="font-medium text-gray-900 mb-2">{newsletter.title}</h4>
-                  <p className="text-xs text-gray-500">
+                <a 
+                  key={newsletter.id} 
+                  href={`/newsletters/${newsletter.id}`}
+                  className="border border-gray-200 rounded-lg p-4 hover:border-primary-300 hover:shadow-sm transition cursor-pointer group"
+                >
+                  <div className="flex items-start justify-between mb-2">
+                    <h4 className="font-medium text-gray-900 group-hover:text-primary-600 transition flex-1">
+                      {newsletter.title}
+                    </h4>
+                    <svg className="w-4 h-4 text-gray-400 group-hover:text-primary-600 transition ml-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-1M10 6l4-4 4 4M14 2v12" />
+                    </svg>
+                  </div>
+                  <p className="text-xs text-gray-500 mb-2">
                     创建于 {new Date(newsletter.createdAt).toLocaleDateString('zh-CN')}
                   </p>
-                </div>
+                  <div className="flex items-center justify-between">
+                    <span className="inline-flex items-center px-2 py-1 text-xs font-medium bg-primary-100 text-primary-700 rounded-full">
+                      AI生成
+                    </span>
+                    <span className="text-xs text-primary-600 group-hover:text-primary-700 font-medium">
+                      点击查看 →
+                    </span>
+                  </div>
+                </a>
               ))}
             </div>
           </div>

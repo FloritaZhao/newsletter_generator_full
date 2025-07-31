@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Andreessen Horowitz</title>
+        <link>https://a16z.com</link>
+        <description>News and insights from Andreessen Horowitz</description>
+        <lastBuildDate>Thu, 31 Jul 2025 18:10:07 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Newsletter Generator RSS Converter</generator>
+        <language>en</language>
+        <image>
+            <title>Andreessen Horowitz</title>
+            <url>https://a16z.com/favicon.ico</url>
+            <link>https://a16z.com</link>
+        </image>
+        <copyright>All rights reserved 2025, Andreessen Horowitz</copyright>
+        <atom:link href="https://a16z.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[RT @FAL: Today, we're thrilled to announce our $125M Series C funding round at a $1.5B valuation, led by Meritech Capital, marking our thir…]]></title>
+            <link>https://a16z.com/news-content/</link>
+            <guid>https://a16z.com/news-content/</guid>
+            <pubDate>Thu, 31 Jul 2025 18:10:07 GMT</pubDate>
+            <description><![CDATA[RT @FAL: Today, we're thrilled to announce our $125M Series C funding round at a $1.5B valuation, led by Meritech Capital, marking our thir…]]></description>
+            <content:encoded><![CDATA[RT @FAL: Today, we're thrilled to announce our $125M Series C funding round at a $1.5B valuation, led by Meritech Capital, marking our thir…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[@Sneaky2x @antoniogm Early internet was a different world]]></title>
+            <link>https://a16z.com/news-content/</link>
+            <guid>https://a16z.com/news-content/</guid>
+            <pubDate>Thu, 31 Jul 2025 18:10:07 GMT</pubDate>
+            <description><![CDATA[@Sneaky2x @antoniogm Early internet was a different world]]></description>
+            <content:encoded><![CDATA[@Sneaky2x @antoniogm Early internet was a different world]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[@samkkaufman @antoniogm 100%]]></title>
+            <link>https://a16z.com/news-content/</link>
+            <guid>https://a16z.com/news-content/</guid>
+            <pubDate>Thu, 31 Jul 2025 18:10:07 GMT</pubDate>
+            <description><![CDATA[@samkkaufman @antoniogm 100%]]></description>
+            <content:encoded><![CDATA[@samkkaufman @antoniogm 100%]]></content:encoded>
+        </item>
+    </channel>
+</rss>

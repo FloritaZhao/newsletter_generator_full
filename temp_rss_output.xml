@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Andreessen Horowitz</title>
+        <link>https://a16z.com</link>
+        <description>News and insights from Andreessen Horowitz</description>
+        <lastBuildDate>Thu, 31 Jul 2025 18:03:14 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Newsletter Generator RSS Converter</generator>
+        <language>en</language>
+        <image>
+            <title>Andreessen Horowitz</title>
+            <url>https://a16z.com/favicon.ico</url>
+            <link>https://a16z.com</link>
+        </image>
+        <copyright>All rights reserved 2025, Andreessen Horowitz</copyright>
+        <atom:link href="https://a16z.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[How Big Bank Fees Could Kill Fintech Competition (July 2025 Fintech Newsletter)]]></title>
+            <link>https://a16z.com/newsletter/big-bank-fees-could-kill-competition/</link>
+            <guid>https://a16z.com/newsletter/big-bank-fees-could-kill-competition/</guid>
+            <pubDate>Thu, 31 Jul 2025 18:03:14 GMT</pubDate>
+            <description><![CDATA[“Many banks have hostages, not customers.” Reviving the fight over data access, new M&A deals, and more in our July Fintech newsletter.]]></description>
+            <content:encoded><![CDATA[“Many banks have hostages, not customers.” Reviving the fight over data access, new M&A deals, and more in our July Fintech newsletter.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[@a16z]]></title>
+            <link>https://twitter.com/a16z</link>
+            <guid>https://twitter.com/a16z</guid>
+            <pubDate>Thu, 31 Jul 2025 18:03:14 GMT</pubDate>
+            <description><![CDATA[The teams building the future of media are building on fal.
+
+They just raised a $125M Series C to scale their real-time generative content platform.
+
+fal is becoming the default infrastructure for get...]]></description>
+            <content:encoded><![CDATA[The teams building the future of media are building on fal.
+
+They just raised a $125M Series C to scale their real-time generative content platform.
+
+fal is becoming the default infrastructure for get...]]></content:encoded>
+        </item>
+    </channel>
+</rss>

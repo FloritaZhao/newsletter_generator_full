@@ -80,6 +80,7 @@ export default async function SourcesPage() {
                 <select name="type" className="input">
                   <option value="rss">RSS Feed</option>
                   <option value="json">JSON API</option>
+                  <option value="scrape">网页抓取 (适用于无RSS的网站)</option>
                 </select>
               </div>
             </div>
@@ -130,9 +131,11 @@ export default async function SourcesPage() {
                         <span className={`px-2 py-1 text-xs font-medium rounded-full ${
                           source.type === 'rss' 
                             ? 'bg-orange-100 text-orange-600' 
-                            : 'bg-blue-100 text-blue-600'
+                            : source.type === 'json'
+                            ? 'bg-blue-100 text-blue-600'
+                            : 'bg-purple-100 text-purple-600'
                         }`}>
-                          {source.type.toUpperCase()}
+                          {source.type === 'scrape' ? '抓取' : source.type.toUpperCase()}
                         </span>
                       </div>
                       <p className="text-sm text-gray-600 mb-3 break-all">{source.url}</p>
@@ -176,6 +179,7 @@ export default async function SourcesPage() {
             <ul className="text-sm text-primary-700 space-y-1">
               <li>• RSS源：大多数新闻网站和博客都提供RSS feed</li>
               <li>• JSON源：支持自定义API接口，需返回标准格式的JSON数据</li>
+              <li>• 网页抓取：适用于没有RSS的高质量网站，如a16z.com、TechCrunch等</li>
               <li>• 系统会定期自动抓取新内容，无需手动更新</li>
               <li>• 建议添加多个不同领域的数据源以获得更丰富的内容</li>
             </ul>

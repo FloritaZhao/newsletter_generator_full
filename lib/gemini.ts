@@ -1,7 +1,7 @@
 
 import axios from 'axios';
 
-const ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent';
+const ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent';
 
 export async function callGemini(prompt: string): Promise<string> {
   const key = process.env.GEMINI_API_KEY;

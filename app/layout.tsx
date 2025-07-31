@@ -35,6 +35,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <a href="/" className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-primary-600 hover:bg-gray-50 rounded-md transition">
                   首页
                 </a>
+                <a href="/workspace" className="px-4 py-2 text-sm font-medium text-primary-700 bg-primary-50 hover:text-primary-600 hover:bg-primary-100 rounded-md transition font-semibold">
+                  🚀 工作台
+                </a>
                 <a href="/sources" className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-primary-600 hover:bg-gray-50 rounded-md transition">
                   数据源
                 </a>
@@ -43,6 +46,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </a>
                 <a href="/newsletters" className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-primary-600 hover:bg-gray-50 rounded-md transition">
                   简报
+                </a>
+                <a href="/rss-converter" className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-primary-600 hover:bg-gray-50 rounded-md transition">
+                  RSS转换
                 </a>
               </nav>
 
@@ -63,6 +69,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   </svg>
                   首页
                 </a>
+                <a href="/workspace" className="px-3 py-3 text-sm font-medium text-primary-700 bg-primary-50 hover:text-primary-600 hover:bg-primary-100 rounded-md transition flex items-center font-semibold">
+                  <svg className="w-4 h-4 mr-3 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                  </svg>
+                  🚀 工作台
+                </a>
                 <a href="/sources" className="px-3 py-3 text-sm font-medium text-gray-700 hover:text-primary-600 hover:bg-gray-50 rounded-md transition flex items-center">
                   <svg className="w-4 h-4 mr-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"/>
@@ -80,6 +92,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
                   </svg>
                   简报
+                </a>
+                <a href="/rss-converter" className="px-3 py-3 text-sm font-medium text-gray-700 hover:text-primary-600 hover:bg-gray-50 rounded-md transition flex items-center">
+                  <svg className="w-4 h-4 mr-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                  </svg>
+                  RSS转换
                 </a>
               </nav>
             </div>
